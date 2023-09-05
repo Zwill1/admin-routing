@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
+import { useAuth } from "../contexts/AuthContext";
+
 const Nav = () => {
   const [nav, setNav] = useState(false);
+  const { logout, isAuthenticated } = useAuth();
   const handleClick = () => setNav(!nav);
 
   const handleClose = () => setNav(!nav);
@@ -31,11 +34,33 @@ const Nav = () => {
                   Home
                 </Link>
               </li>
-              <li className="p-4">
+              {/* <li className="p-4">
                 <Link to="/login" className="nav-link">
                   Login
                 </Link>
-              </li>
+              </li> */}
+
+              {/* Changing nav text link based on if the user has logged in. Login if not login is authenticated. Logout if a user is logged in. logout link uses onclick from auth context for logout */}
+              {!isAuthenticated ? (
+                <li className="p-4">
+                  <Link to="/login" className="nav-link">
+                    Login
+                  </Link>
+                </li>
+              ) : (
+                <li className="p-4">
+                  <Link to="/logout" className="nav-link" onClick={logout}>
+                    Logout
+                  </Link>
+                </li>
+              )}
+
+              {/* <li className="p-4">
+                <Link to="/login" className="nav-link">
+                  {!isAuthenticated ? <span>Login</span> : <span>Logout</span>}
+                </Link>
+              </li> */}
+              {/* <li>{!isAuthenticated ? <span>Login</span> : <span>Logout</span>}</li> */}
             </ul>
           </div>
           <div className="lg:hidden" onClick={handleClick}>

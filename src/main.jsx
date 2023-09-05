@@ -2,22 +2,24 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import App from "./App.jsx";
+
+// CSS styles
 import "./styles/index.css";
+import "./styles/styles.css";
 
 // Auth
 import { AuthProvider } from "./contexts/AuthContext";
 
-// page imports
+// Page imports
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 
-// admin page import
+// Admin page import
 import AppLayout from "./pages/admin/AppLayout";
 import ProtectedRoute from "./pages/admin/ProtectedRoute";
 
-// routing
+// Routing
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageNotFound from "./pages/PageNotFound";
 
@@ -42,7 +44,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             }
           />
           {/* Other routes that do not exist go to page not found */}
-          <Route path="*" element={<PageNotFound />} />
+          <Route path="*" element={<Layout />}>
+            <Route path="*" element={<PageNotFound />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </AuthProvider>

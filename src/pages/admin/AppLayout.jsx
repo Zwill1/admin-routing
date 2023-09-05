@@ -1,3 +1,9 @@
+import Nav from "../../components/Nav";
+
 export default function AppLayout() {
-  return <div>AppLayout</div>;
+  return (
+    <>
+      <Nav />
+    </>
+  );
 }
