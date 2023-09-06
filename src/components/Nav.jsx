@@ -34,12 +34,6 @@ const Nav = () => {
                   Home
                 </Link>
               </li>
-              {/* <li className="p-4">
-                <Link to="/login" className="nav-link">
-                  Login
-                </Link>
-              </li> */}
-
               {/* Changing nav text link based on if the user has logged in. Login if not login is authenticated. Logout if a user is logged in. logout link uses onclick from auth context for logout */}
               {!isAuthenticated ? (
                 <li className="p-4">
@@ -48,19 +42,20 @@ const Nav = () => {
                   </Link>
                 </li>
               ) : (
-                <li className="p-4">
-                  <Link to="/logout" className="nav-link" onClick={logout}>
-                    Logout
-                  </Link>
-                </li>
+                <>
+                  {/* Adding dashboard to navigation if user goes back to homepage. */}
+                  <li className="p-4">
+                    <Link to="/app" className="nav-link">
+                      Dashboard
+                    </Link>
+                  </li>
+                  <li className="p-4">
+                    <Link to="/" className="nav-link" onClick={logout}>
+                      Logout
+                    </Link>
+                  </li>
+                </>
               )}
-
-              {/* <li className="p-4">
-                <Link to="/login" className="nav-link">
-                  {!isAuthenticated ? <span>Login</span> : <span>Logout</span>}
-                </Link>
-              </li> */}
-              {/* <li>{!isAuthenticated ? <span>Login</span> : <span>Logout</span>}</li> */}
             </ul>
           </div>
           <div className="lg:hidden" onClick={handleClick}>
@@ -81,11 +76,28 @@ const Nav = () => {
               Home
             </Link>
           </li>
-          <li className="border-b-2 border-zinc-300 w-full p-4">
-            <Link to="/login" onClick={handleClose}>
-              Login
-            </Link>
-          </li>
+          {/* Changing nav text link based on if the user has logged in. Login if not login is authenticated. Logout if a user is logged in. logout link uses onclick from auth context for logout */}
+          {!isAuthenticated ? (
+            <li className="border-b-2 border-zinc-300 w-full p-4">
+              <Link to="/login" onClick={handleClose}>
+                Login
+              </Link>
+            </li>
+          ) : (
+            <>
+              {/* Adding dashboard to navigation if user goes back to homepage. */}
+              <li className="border-b-2 border-zinc-300 w-full p-4">
+                <Link to="/app" onClick={handleClose}>
+                  Dashboard
+                </Link>
+              </li>
+              <li className="border-b-2 border-zinc-300 w-full p-4">
+                <Link to="/" onClick={logout}>
+                  Logout
+                </Link>
+              </li>
+            </>
+          )}
         </ul>
       </section>
     </>
