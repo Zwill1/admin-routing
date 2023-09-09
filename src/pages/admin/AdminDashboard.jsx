@@ -10,14 +10,14 @@ export default function AdminDashboard() {
           <AdminNav />
         </div>
         <div className="w-full xl:w-10/12 text-center flex flex-wrap">
-          <div className="xl:w-6/12 text-center bg-gray-100">
+          <div className="w-full xl:w-6/12 text-center bg-gray-100">
             <AccordianList />
           </div>
-          <div className="xl:w-6/12 text-center bg-gray-200">
+          <div className="w-full xl:w-6/12 text-center bg-gray-200">
             <PieChart />
           </div>
-          <div className="xl:w-6/12 text-center bg-gray-500">3</div>
-          <div className="xl:w-6/12 text-center bg-gray-600">4</div>
+          <div className="w-full xl:w-6/12 text-center bg-gray-500">3</div>
+          <div className="w-full xl:w-6/12 text-center bg-gray-600">4</div>
         </div>
       </section>
     </>
