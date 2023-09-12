@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
+import HomeIcon from "@mui/icons-material/Home";
+import DashboardCustomizeIcon from "@mui/icons-material/DashboardCustomize";
+import LogoutIcon from "@mui/icons-material/Logout";
 
 export default function AdminNav() {
   const { logout } = useAuth();
@@ -10,17 +13,17 @@ export default function AdminNav() {
       <ul className="pr-4">
         <li className="p-4">
           <Link to="/" className="nav-link">
-            Home
+            <HomeIcon /> Home
           </Link>
         </li>
         <li className="p-4">
           <Link to="/app" className="nav-link">
-            Dashboard
+            <DashboardCustomizeIcon /> Dashboard
           </Link>
         </li>
         <li className="p-4">
           <Link to="/" className="nav-link" onClick={logout}>
-            Logout
+            <LogoutIcon /> Logout
           </Link>
         </li>
       </ul>
