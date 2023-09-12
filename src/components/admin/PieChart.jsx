@@ -167,7 +167,9 @@ const MyResponsivePie = () => (
 export default function PieChart() {
   return (
     <>
-      <h1>PieChart Graph</h1>
+      <h1 className="text-3xl font-bold">
+        Products sold by highest to lowest:
+      </h1>
       <MyResponsivePie />
     </>
   );
