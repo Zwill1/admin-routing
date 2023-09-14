@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-// import data from "../admin/Data/AccordianListData";
 
 export default function AccordianList() {
-  const [apiData, setApiData] = useState(null);
+  const [apiData, setApiData] = useState("");
 
   // When getting data, set useeffect to "loading".
 
