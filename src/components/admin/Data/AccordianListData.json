@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "car_brand": "Cadillac",
+    "car_model": "XLR",
+    "car_year": 2005,
+    "car_selected": "Cadillac XLR 2005",
+    "car_price": "$766,661.71",
+    "car_image": "src/assets/images/vehicles/Cadillac-XLR-2005.jpg",
+    "car_description": "Performance: The 2005 Cadillac XLR delivers impressive performance capabilities. It is powered by a 4.6-liter V8 engine, producing 320 horsepower and 310 lb-ft of torque. The engine is mated to a smooth-shifting 5-speed automatic transmission with manual shift control. This powertrain combination allows the XLR to accelerate from 0 to 60 mph (0 to 97 km/h) in approximately 5.7 seconds. The car features rear-wheel drive and a sport-tuned suspension, providing a dynamic driving experience with responsive handling and precise steering. Additionally, the Cadillac XLR is equipped with advanced technologies such as Magnetic Ride Control, which constantly adjusts the suspension for optimal performance and comfort."
+  },
+  {
+    "id": 2,
+    "car_brand": "Daewoo",
+    "car_model": "Leganza",
+    "car_year": 1999,
+    "car_selected": "Daewoo Leganza 1999",
+    "car_price": "$932,833.04",
+    "car_image": "src/assets/images/vehicles/Daewoo-Leganza-1999.jpg",
+    "car_description": "Performance: Under the hood, the Daewoo Leganza 1999 typically houses a 2.2-liter four-cylinder engine, generating around 131 horsepower. It is paired with either a 5-speed manual transmission or an optional 4-speed automatic transmission. The Leganza delivers a smooth and comfortable ride, focusing on providing a pleasant driving experience rather than sporty performance. It is suited for everyday commuting and highway cruising, offering good fuel efficiency and reliability."
+  },
+  {
+    "id": 3,
+    "car_brand": "Audi",
+    "car_model": "A3",
+    "car_year": 2008,
+    "car_selected": "Audi A3 2008",
+    "car_price": "$434,212.34",
+    "car_image": "src/assets/images/vehicles/Audi-A3-2008.jpg",
+    "car_description": "Performance: The Audi A3 2008 delivers an engaging and spirited driving experience. It is available with a variety of engine options, including efficient and responsive gasoline and diesel engines. The performance-oriented variants offer impressive acceleration and nimble handling, while still providing a comfortable ride quality. The A3 comes with front-wheel drive as standard, while some models offer Audi's renowned quattro all-wheel drive system for enhanced traction and stability."
+  },
+  {
+    "id": 4,
+    "car_brand": "Lincoln",
+    "car_model": "Continental-Mark-VII",
+    "car_year": 1988,
+    "car_selected": "Lincoln Continental Mark VII 1988",
+    "car_price": "$947,834.20",
+    "car_image": "src/assets/images/vehicles/Lincoln-Continental-Mark-VII-1988.jpg",
+    "car_description": "Performance: The Lincoln Continental Mark VII 1988 delivers a smooth and refined driving experience. It is typically equipped with a 5.0-liter V8 engine, producing around 225 horsepower. The power is delivered to the rear wheels through a 4-speed automatic transmission, ensuring effortless acceleration and seamless gear shifts. The suspension is tuned for a comfortable ride, absorbing road imperfections with ease. Overall, the Mark VII offers a balance of power, comfort, and refinement, making it a suitable grand touring coupe."
+  },
+  {
+    "id": 5,
+    "car_brand": "Chevrolet",
+    "car_model": "Silverado-2500",
+    "car_year": 2002,
+    "car_selected": "Chevrolet Silverado 2500 2002",
+    "car_price": "$575,134.38",
+    "car_image": "src/assets/images/vehicles/Chevrolet-Silverado-2500-2002.jpg",
+    "car_description": "Performance: The Chevrolet Silverado 2500 2002 is built for heavy-duty performance. It typically comes equipped with a powerful V8 engine, such as a 6.0-liter Vortec V8, delivering ample horsepower and torque for demanding tasks. The truck offers a robust towing capacity and payload capability, making it suitable for hauling trailers, boats, or other equipment. It features a solid frame and suspension system designed to handle rough terrains and heavy loads with stability and control. Four-wheel drive is available as an option for enhanced off-road capabilities."
+  },
+  {
+    "id": 6,
+    "car_brand": "Infiniti",
+    "car_model": "QX",
+    "car_year": 2003,
+    "car_selected": "Infiniti QX 2003",
+    "car_price": "$384,080.29",
+    "car_image": "src/assets/images/vehicles/Infiniti-QX-2003.jpg",
+    "car_description": "Performance: Under the hood, the Infiniti QX 2003 typically houses a powerful 5.6-liter V8 engine, delivering robust performance. It is paired with a smooth-shifting automatic transmission, providing seamless acceleration and precise gear changes. The QX 2003 offers a comfortable and composed ride, with responsive handling and good stability on various road conditions. It is equipped with all-wheel drive (AWD) for enhanced traction and control, making it suitable for both on-road and light off-road adventures."
+  },
+  {
+    "id": 7,
+    "car_brand": "BMW",
+    "car_model": "Alpina-B7",
+    "car_year": 2007,
+    "car_selected": "BMW Alpina B7 2007",
+    "car_price": "$138,087.17",
+    "car_image": "src/assets/images/vehicles/BMW-Alpina-B7-2007.jpg",
+    "car_description": "Performance: The BMW Alpina B7 2007 is known for its exceptional performance capabilities. It is equipped with a handcrafted 4.4-liter V8 engine, specially tuned by Alpina, delivering exhilarating power and torque. The engine is mated to a refined automatic transmission, offering smooth and precise gear changes. The Alpina B7 provides thrilling acceleration and impressive handling, thanks to its advanced suspension system, performance brakes, and specially calibrated electronic stability control. It also features rear-wheel drive for a dynamic driving experience."
+  },
+  {
+    "id": 8,
+    "car_brand": "Subaru",
+    "car_model": "Forester",
+    "car_year": 2005,
+    "car_selected": "Subaru Forester 2005",
+    "car_price": "$202,207.88",
+    "car_image": "src/assets/images/vehicles/Subaru-Forester-2005.jpg",
+    "car_description": "Performance: The Subaru Forester 2005 is known for its capable performance on and off the road. It is typically equipped with a horizontally opposed 2.5-liter four-cylinder engine, delivering a balance of power and fuel efficiency. The engine is paired with a manual or automatic transmission, providing smooth gear shifts. The Forester comes standard with Subaru's symmetrical all-wheel drive (AWD) system, which ensures excellent traction and stability, making it suitable for various weather conditions and light off-road adventures. Additionally, the Forester offers good ground clearance, allowing for confident maneuvering on uneven terrain."
+  },
+  {
+    "id": 9,
+    "car_brand": "Honda",
+    "car_model": "Civic",
+    "car_year": 1998,
+    "car_selected": "Honda Civic 1998",
+    "car_price": "$550,599.95",
+    "car_image": "src/assets/images/vehicles/Honda-Civic-1998.jpg",
+    "car_description": "Performance: The Honda Civic 1998 is known for its efficient and reliable performance. It is typically equipped with a four-cylinder engine, providing a balance between fuel efficiency and sufficient power for daily driving. The engine is mated to a manual or automatic transmission, delivering smooth gear shifts. The Civic offers nimble handling and precise steering, making it enjoyable to drive in both city and highway conditions. It is known for its fuel efficiency, offering good mileage per gallon, which is beneficial for long commutes and cost-effective ownership."
+  },
+  {
+    "id": 10,
+    "car_brand": "Chevrolet",
+    "car_model": "Impala-SS",
+    "car_year": 1995,
+    "car_selected": "Chevrolet Impala SS 1995",
+    "car_price": "$39,072.27",
+    "car_image": "src/assets/images/vehicles/Chevrolet-Impala-SS-1995.jpg",
+    "car_description": "Performance: What sets the Impala SS apart is its performance-oriented nature. It is equipped with a potent V8 engine, delivering exhilarating power and torque. The exact engine specifications may vary depending on the model year, but the Impala SS typically houses a high-performance V8 engine under the hood. This engine is paired with a responsive automatic transmission, providing quick and smooth gear shifts. The Impala SS offers impressive acceleration and robust performance, making it a thrill to drive. It is also equipped with a sport-tuned suspension, performance brakes, and enhanced handling characteristics, ensuring a dynamic and engaging driving experience."
+  }
+]
