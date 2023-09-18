@@ -20,13 +20,14 @@ export default function AccordianList() {
   return (
     <>
       <section>
+        <h2 className="text-3xl font-bold">Top 5 rated best selling:</h2>
         {data &&
           data.map((item) => (
             <div
               key={item.id}
               className="flex justify-center bg-gray-500 p-4 mt-2 mb-2"
             >
-              <p className="p-2">{item.id}</p>
+              <p className="p-2"><img src={item.car_image} style={{width: "75px", height: "75px"}} /></p>
               <div className="p-2">
                 {item.car_brand} / {item.car_model}
               </div>
