@@ -21,18 +21,20 @@ export default function AccordianList() {
     <>
       <section>
         <h2 className="text-3xl font-bold">Top 5 rated best selling:</h2>
-        {data &&
-          data.map((item) => (
-            <div
-              key={item.id}
-              className="flex justify-center bg-gray-500 p-4 mt-2 mb-2"
-            >
-              <p className="p-2"><img src={item.car_image} style={{width: "75px", height: "75px"}} /></p>
-              <div className="p-2">
-                {item.car_brand} / {item.car_model}
+          {data &&
+            data.map((item) => (
+              <div
+                key={item.id}
+                className="flex justify-center p-4 mt-2 mb-2 bg-gray-200"
+              >
+                <p className="p-2"><img src={item.car_image} style={{width: "75px", height: "75px"}} /></p>
+                <div className="p-2">
+                  <p><h4 className="font-bold uppercase">{item.car_brand} / {item.car_model} / {item.car_year}</h4></p>
+                  <p className="italic font-semibold">{item.car_price}</p>
+                  <p>{item.car_sold} Cars sold</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
       </section>
     </>
   );

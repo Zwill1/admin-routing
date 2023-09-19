@@ -7,7 +7,8 @@
     "car_selected": "Cadillac XLR 2005",
     "car_price": "$766,661.71",
     "car_image": "src/components/admin/images/Cadillac-XLR-2005.jpg",
-    "car_description": "Performance: The 2005 Cadillac XLR delivers impressive performance capabilities. It is powered by a 4.6-liter V8 engine, producing 320 horsepower and 310 lb-ft of torque. The engine is mated to a smooth-shifting 5-speed automatic transmission with manual shift control. This powertrain combination allows the XLR to accelerate from 0 to 60 mph (0 to 97 km/h) in approximately 5.7 seconds. The car features rear-wheel drive and a sport-tuned suspension, providing a dynamic driving experience with responsive handling and precise steering. Additionally, the Cadillac XLR is equipped with advanced technologies such as Magnetic Ride Control, which constantly adjusts the suspension for optimal performance and comfort."
+    "car_description": "Performance: The 2005 Cadillac XLR delivers impressive performance capabilities. It is powered by a 4.6-liter V8 engine, producing 320 horsepower and 310 lb-ft of torque. The engine is mated to a smooth-shifting 5-speed automatic transmission with manual shift control. This powertrain combination allows the XLR to accelerate from 0 to 60 mph (0 to 97 km/h) in approximately 5.7 seconds. The car features rear-wheel drive and a sport-tuned suspension, providing a dynamic driving experience with responsive handling and precise steering. Additionally, the Cadillac XLR is equipped with advanced technologies such as Magnetic Ride Control, which constantly adjusts the suspension for optimal performance and comfort.",
+    "car_sold": 50
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "car_selected": "Daewoo Leganza 1999",
     "car_price": "$932,833.04",
     "car_image": "src/components/admin/images/Daewoo-Leganza-1999.jpg",
-    "car_description": "Performance: Under the hood, the Daewoo Leganza 1999 typically houses a 2.2-liter four-cylinder engine, generating around 131 horsepower. It is paired with either a 5-speed manual transmission or an optional 4-speed automatic transmission. The Leganza delivers a smooth and comfortable ride, focusing on providing a pleasant driving experience rather than sporty performance. It is suited for everyday commuting and highway cruising, offering good fuel efficiency and reliability."
+    "car_description": "Performance: Under the hood, the Daewoo Leganza 1999 typically houses a 2.2-liter four-cylinder engine, generating around 131 horsepower. It is paired with either a 5-speed manual transmission or an optional 4-speed automatic transmission. The Leganza delivers a smooth and comfortable ride, focusing on providing a pleasant driving experience rather than sporty performance. It is suited for everyday commuting and highway cruising, offering good fuel efficiency and reliability.",
+    "car_sold": 23
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "car_selected": "Audi A3 2008",
     "car_price": "$434,212.34",
     "car_image": "src/components/admin/images/Audi-A3-2008.jpg",
-    "car_description": "Performance: The Audi A3 2008 delivers an engaging and spirited driving experience. It is available with a variety of engine options, including efficient and responsive gasoline and diesel engines. The performance-oriented variants offer impressive acceleration and nimble handling, while still providing a comfortable ride quality. The A3 comes with front-wheel drive as standard, while some models offer Audi's renowned quattro all-wheel drive system for enhanced traction and stability."
+    "car_description": "Performance: The Audi A3 2008 delivers an engaging and spirited driving experience. It is available with a variety of engine options, including efficient and responsive gasoline and diesel engines. The performance-oriented variants offer impressive acceleration and nimble handling, while still providing a comfortable ride quality. The A3 comes with front-wheel drive as standard, while some models offer Audi's renowned quattro all-wheel drive system for enhanced traction and stability.",
+    "car_sold": 10
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "car_selected": "Lincoln Continental Mark VII 1988",
     "car_price": "$947,834.20",
     "car_image": "src/components/admin/images/Lincoln-Continental-Mark-VII-1988.jpg",
-    "car_description": "Performance: The Lincoln Continental Mark VII 1988 delivers a smooth and refined driving experience. It is typically equipped with a 5.0-liter V8 engine, producing around 225 horsepower. The power is delivered to the rear wheels through a 4-speed automatic transmission, ensuring effortless acceleration and seamless gear shifts. The suspension is tuned for a comfortable ride, absorbing road imperfections with ease. Overall, the Mark VII offers a balance of power, comfort, and refinement, making it a suitable grand touring coupe."
+    "car_description": "Performance: The Lincoln Continental Mark VII 1988 delivers a smooth and refined driving experience. It is typically equipped with a 5.0-liter V8 engine, producing around 225 horsepower. The power is delivered to the rear wheels through a 4-speed automatic transmission, ensuring effortless acceleration and seamless gear shifts. The suspension is tuned for a comfortable ride, absorbing road imperfections with ease. Overall, the Mark VII offers a balance of power, comfort, and refinement, making it a suitable grand touring coupe.",
+    "car_sold": 43
   },
   {
     "id": 5,
@@ -47,6 +51,7 @@
     "car_selected": "Chevrolet Silverado 2500 2002",
     "car_price": "$575,134.38",
     "car_image": "src/components/admin/images/Chevrolet-Silverado-2500-2002.jpg",
-    "car_description": "Performance: The Chevrolet Silverado 2500 2002 is built for heavy-duty performance. It typically comes equipped with a powerful V8 engine, such as a 6.0-liter Vortec V8, delivering ample horsepower and torque for demanding tasks. The truck offers a robust towing capacity and payload capability, making it suitable for hauling trailers, boats, or other equipment. It features a solid frame and suspension system designed to handle rough terrains and heavy loads with stability and control. Four-wheel drive is available as an option for enhanced off-road capabilities."
+    "car_description": "Performance: The Chevrolet Silverado 2500 2002 is built for heavy-duty performance. It typically comes equipped with a powerful V8 engine, such as a 6.0-liter Vortec V8, delivering ample horsepower and torque for demanding tasks. The truck offers a robust towing capacity and payload capability, making it suitable for hauling trailers, boats, or other equipment. It features a solid frame and suspension system designed to handle rough terrains and heavy loads with stability and control. Four-wheel drive is available as an option for enhanced off-road capabilities.",
+    "car_sold": 15
   }
 ]
