@@ -13,11 +13,11 @@ export default function AdminDashboard() {
           <div className="w-full xl:w-6/12 text-center bg-gray-100 pt-4">
             <AccordianList />
           </div>
-          <div className="w-full xl:w-6/12 text-center bg-gray-200 pt-4">
+          <div className="w-full xl:w-6/12 text-center bg-gray-400 pt-4">
             <PieChart />
           </div>
-          <div className="w-full xl:w-6/12 text-center bg-gray-500 pt-4">3</div>
-          <div className="w-full xl:w-6/12 text-center bg-gray-600 pt-4">4</div>
+          <div className="w-full xl:w-6/12 text-center bg-gray-600 pt-4">3</div>
+          <div className="w-full xl:w-6/12 text-center bg-gray-800 pt-4">4</div>
         </div>
       </section>
     </>

@@ -25,13 +25,15 @@ export default function AccordianList() {
             data.map((item) => (
               <div
                 key={item.id}
-                className="flex justify-center p-4 mt-2 mb-2 bg-gray-200"
+                className="flex justify-center p-4 mt-2 mb-2"
               >
-                <p className="p-2"><img src={item.car_image} style={{width: "75px", height: "75px"}} /></p>
-                <div className="p-2">
-                  <p><h4 className="font-bold uppercase">{item.car_brand} / {item.car_model} / {item.car_year}</h4></p>
-                  <p className="italic font-semibold">{item.car_price}</p>
-                  <p>{item.car_sold} Cars sold</p>
+                <div className="w-10/12 flex items-center justify-center bg-gray-200">
+                  <p className="p-2"><img src={item.car_image} style={{width: "75px", height: "75px"}} /></p>
+                  <div className="p-2">
+                    <p><h4 className="font-bold uppercase">{item.car_brand} / {item.car_model} / {item.car_year}</h4></p>
+                    <p className="italic font-semibold">{item.car_price}</p>
+                    <p>{item.car_sold} Cars sold</p>
+                  </div>
                 </div>
               </div>
             ))}
