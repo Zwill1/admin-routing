@@ -6,33 +6,33 @@ import { ResponsivePie } from "@nivo/pie";
 
 const data = [
   {
-    id: "javascript",
-    label: "javascript",
-    value: 468,
+    id: "Cadillac",
+    label: "Cadillac",
+    value: 50,
     color: "hsl(244, 70%, 50%)",
   },
   {
-    id: "java",
-    label: "java",
-    value: 76,
+    id: "Daewoo",
+    label: "Daewoo",
+    value: 23,
     color: "hsl(71, 70%, 50%)",
   },
   {
-    id: "stylus",
-    label: "stylus",
-    value: 329,
+    id: "Audi",
+    label: "Audi",
+    value: 10,
     color: "hsl(47, 70%, 50%)",
   },
   {
-    id: "c",
-    label: "c",
-    value: 212,
-    color: "hsl(284, 70%, 50%)",
+    id: "Lincoln",
+    label: "Lincoln",
+    value: 43,
+    color: "hsl(22, 70%, 50%)",
   },
   {
-    id: "hack",
-    label: "hack",
-    value: 52,
+    id: "Chevrolet",
+    label: "Chevrolet",
+    value: 15,
     color: "hsl(22, 70%, 50%)",
   },
 ];
@@ -56,7 +56,7 @@ const MyResponsivePie = () => (
       modifiers: [["darker", 0.2]],
     }}
     arcLinkLabelsSkipAngle={10}
-    arcLinkLabelsTextColor="#333333"
+    arcLinkLabelsTextColor="#000000"
     arcLinkLabelsThickness={2}
     arcLinkLabelsColor={{ from: "color" }}
     arcLabelsSkipAngle={10}
@@ -144,7 +144,7 @@ const MyResponsivePie = () => (
         itemsSpacing: 0,
         itemWidth: 100,
         itemHeight: 18,
-        itemTextColor: "#999",
+        itemTextColor: "#000",
         itemDirection: "left-to-right",
         itemOpacity: 1,
         symbolSize: 18,
@@ -168,7 +168,7 @@ export default function PieChart() {
   return (
     <>
       <h2 className="text-3xl font-bold">
-        Products sold by highest to lowest:
+        Brands sold by highest to lowest:
       </h2>
       <MyResponsivePie />
     </>
